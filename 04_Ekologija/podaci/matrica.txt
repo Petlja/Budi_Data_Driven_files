@@ -1,0 +1,9 @@
+import seaborn as sbrn
+
+otisakKor = otisak[otisak['HDI'] > 0][['Total Ecological Footprint', 'HDI', 'GDP per cap', 'Life Expectancy', 'Population (mil)']].copy()
+otisakKor.set_axis(['Отисак', 'ИХР', 'БДП', 'Жив. век', 'Бр. стан.'], axis=1, inplace=True)
+
+kore = otisakKor[['Отисак', 'ИХР', 'БДП', 'Жив. век', 'Бр. стан.']].corr()
+
+cm = sbrn.light_palette("seagreen", as_cmap=True)
+kore.style.background_gradient(cmap=cm).format("{:.2f}")

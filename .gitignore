@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+.vscode
+.env
+__pycache__
+START_JUPYTER.BAT
+START_IDLE.lnk

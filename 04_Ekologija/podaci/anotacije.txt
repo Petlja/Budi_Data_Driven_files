@@ -1,0 +1,7 @@
+nazivi = kraLE['Country'].head(10)
+for i, label in enumerate(nazivi):
+    ax3.annotate(label, (kraLE['Life Expectancy'][i], kraLE['GDP per cap'][i]))
+
+nazivi = duzLE['Country'].head(10)
+for i, label in enumerate(nazivi):
+    ax4.annotate(label, (duzLE['Life Expectancy'][i], duzLE['GDP per cap'][i]))

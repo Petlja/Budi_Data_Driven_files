@@ -1,0 +1,9 @@
+oranice = otisak.sort_values('Cropland Footprint', ascending = False)[['Country', 'Cropland Footprint']].head(5).reset_index(drop=True)
+pasnjaci = otisak.sort_values('Grazing Footprint', ascending = False)[['Country', 'Grazing Footprint']].head(5).reset_index(drop=True)
+sume = otisak.sort_values('Forest Footprint', ascending = False)[['Country', 'Forest Footprint']].head(5).reset_index(drop=True)
+co2 = otisak.sort_values('Carbon Footprint', ascending = False)[['Country', 'Carbon Footprint']].head(5).reset_index(drop=True)
+riba = otisak.sort_values('Fish Footprint', ascending = False)[['Country', 'Fish Footprint']].head(5).reset_index(drop=True)
+ukupno = otisak.sort_values('Total Ecological Footprint', ascending = False)[['Country', 'Total Ecological Footprint']].head(5).reset_index(drop=True)
+tabTop5 = pd.concat([oranice, pasnjaci, sume, co2, riba, ukupno], axis=1)
+tabTop5.set_axis(['Држава', 'Оранице', 'Држава', 'Пашњаци', 'Држава', 'Шуме', 'Држава', 'ЦО2', 'Држава', 'Риба', 'Држава', 'Укупно'], axis=1, inplace=True)
+tabTop5
