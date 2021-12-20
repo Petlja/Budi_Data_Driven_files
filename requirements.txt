@@ -12,3 +12,4 @@ networkx>=2.5
 cyrtranslit>=0.4
 descartes>=1.1
 scipy
+ipykernel
