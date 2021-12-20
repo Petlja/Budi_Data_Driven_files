@@ -63,9 +63,9 @@ echo.
 echo *** Instaliraju se potrebni paketi u virtuelno okruzenje (treba da ste povezani na internet)
 python -m pip install --upgrade pip
 python -m pip install wheel
-python -m pip install GDAL-3.3.3-cp39-cp39-win_amd64.whl
-python -m pip install Fiona-1.8.20-cp39-cp39-win_amd64.whl
-python -m pip install -r requirements.txt
+python -m pip install library/GDAL-3.3.3-cp39-cp39-win_amd64.whl
+python -m pip install library/Fiona-1.8.20-cp39-cp39-win_amd64.whl
+python -m pip install -r library/requirements.txt
 echo @echo off > START_JUPYTER.BAT
 echo call .env\Scripts\activate.bat >> START_JUPYTER.BAT
 echo jupyter notebook >> START_JUPYTER.BAT
