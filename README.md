@@ -2,29 +2,19 @@ Dobro nam došli!
 
 Pozdravljamo vašu odluku da preuzmete ove sveske na svoj računar
 i da na taj način uvežbate veštine za koje smatramo da su važne za svakog
-mladog čoveka koji će živeti i raditi u 21. veku!
+mladog čoveka i ženu koji će živeti i raditi u 21. veku!
 
-Ovaj folder sadrži datoteke za vežbu za kurs https://petlja.org/kurs/6173
+Ovaj folder sadrži datoteke za samostalni rad za kurs https://petlja.org/kurs/6173
 
 Podešavanje
 ===========
 
-Ako koristiš Windows operativni sistem jedina pretpostavka je da imaš 
-instaliran Python u verziji 3.8 ili 3.9 (standarnda instalacija sa
-adrese https://www.python.org/ftp/python/3.9.9/python-3.9.9-amd64.exe). Za sve ostalo
-(Džupiter i druge neophodne biblioteke) ćemo se pobrinuti mi.
+Ako koristiš Windows operativni sistem, jedina pretpostavka je da imaš 
+instaliranu Anakondu (distribuciju Pajtona namenjenu, između ostalog, i obradi i analizi podataka)
 
-Obezbedi da tvoj računar bude povezan na internet, pa pokreni datoteku 
+Potrebno je da je instaliraš na način na koji je to urađeno u ovom uputstvu https://petljamediastorage.blob.core.windows.net/root/Media/Default/Help/Anakonda_uputstvo.pdf
 
-  SETUP.BAT
-
-Njoj će trebati neko vreme da sa interneta prikupi relevantne biblioteke
-i onda će napraviti:
-
-- podfolder .env u kome se nalaze sve neophodne biblioteke (nema potrebe
-  da tamo zaviruješ, ali ako i odlučiš da virneš nemoj ništa brisati!), 
-- datoteku START_JUPYTER.BAT kojom pokrećeš Džupiter, i
-
+Nakon toga, biće dovoljno da ispratiš korake u objašnjene u ovoj lekciji https://petlja.org/kurs/6173/1/3642#id6 kako bi pokrenuo/pokrenula sveske. 
 
 Sadržaj foldera
 ===============
@@ -81,12 +71,6 @@ Sadržaj foldera treba da bude sledeći:
 
 Svaki od ovih foldra ima i svoj potfolder sa slikama i podacima. Ovi folderi
 sadrže podatke korišćene u kursu i preporučujemo da gvirnete i u njih kada budete prolazili kroz lekcije. 
-
-
-Precizne instrukcije kako da pokreneš Džupiter, odnosno, IDLE, kako da pristupiš
-zadacima i šta se od tebe očekuje pri izradi svake vežbe naći ćeš unutar kursa
-
-  https://petlja.org/kurs/6173/1/3642#id3
 
 Želimo ti uspešno učenje!
 
