@@ -2,20 +2,20 @@ name: BudiDD
 channels:
   - defaults
 dependencies:
-  - numpy
-  - matplotlib
-  - pandas
-  - xlrd
-  - openpyxl
-  - lxml
-  - jupyter
-  - plotly
-  - seaborn
-  - geopandas
-  - networkx
-  - descartes
+  - numpy>=1.3,!=1.19.4
+  - matplotlib>=3.0
+  - pandas>=1.0
+  - xlrd>=1.1
+  - openpyxl>=2.5
+  - lxml>=4.2
+  - jupyter>=1.0
+  - plotly>=4.0
+  - seaborn>=0.11
+  - geopandas>=0.8
+  - networkx>=2.5
+  - descartes>=1.1
   - scipy
   - pip
   - pip:
-    - cyrtranslit
+    - cyrtranslit>=0.4
 
