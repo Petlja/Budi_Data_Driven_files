@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.205.2/containers/python-3-miniconda
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.205.2/containers/python-3-anaconda
 {
-	"name": "Miniconda (Python 3)",
+	"name": "Anaconda (Python 3)",
 	"build": { 
 		"context": "..",
 		"dockerfile": "Dockerfile",
@@ -15,15 +15,12 @@
 		"python.defaultInterpreterPath": "/opt/conda/bin/python",
 		"python.linting.enabled": true,
 		"python.linting.pylintEnabled": true,
-		"python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
-		"python.formatting.blackPath": "/usr/local/py-utils/bin/black",
-		"python.formatting.yapfPath": "/usr/local/py-utils/bin/yapf",
-		"python.linting.banditPath": "/usr/local/py-utils/bin/bandit",
-		"python.linting.flake8Path": "/usr/local/py-utils/bin/flake8",
-		"python.linting.mypyPath": "/usr/local/py-utils/bin/mypy",
-		"python.linting.pycodestylePath": "/usr/local/py-utils/bin/pycodestyle",
-		"python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
-		"python.linting.pylintPath": "/usr/local/py-utils/bin/pylint"
+		"python.formatting.autopep8Path": "/opt/conda/bin/autopep8",
+		"python.formatting.yapfPath": "/opt/conda/bin/yapf",
+		"python.linting.flake8Path": "/opt/conda/bin/flake8",
+		"python.linting.pycodestylePath": "/opt/conda/bin/pycodestyle",
+		"python.linting.pydocstylePath": "/opt/conda/bin/pydocstyle",
+		"python.linting.pylintPath": "/opt/conda/bin/pylint"
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
